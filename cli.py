@@ -13,8 +13,6 @@ from kubernetes import client, config
 # import the Kubernetes library used to connect to client
 
 FILE_NAME = 'resolver'
-WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
-LOGS_DIR = os.path.normpath(WORKING_DIR + '/logs/')
 
 
 def option_parser():
